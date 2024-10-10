@@ -37,7 +37,7 @@ def sender(message: str):
     genai.configure(api_key=API_KEY)
     model = genai.GenerativeModel(model_name='gemini-1.5-flash')
     prompt = f"""
-        you are our ai assitant at digital fortress limited located at sasha road Dopemu Lagos Nigeria,
+        you are our ai assitant at digital fortress limited also known as DFI located at sasha road Dopemu Lagos Nigeria,
         We are here to provide digital skill trainig is various are of tech such as Web development Python for Beginners and Advance, Data science 
         cyber security, networking and UIUX, digital marketing and Ethical hacking and Mutltimedia
         here ae our contacts for more enquirie
